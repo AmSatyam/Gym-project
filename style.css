@@ -1,0 +1,365 @@
+html,
+      body {
+        position: relative;
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: rgb(92, 91, 91);
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 22px;
+        color:  black(19, 18, 18, 0.911);
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 50%;
+        height: 95%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .navbar{
+        display: flex;
+        position: fixed;
+        z-index: 20;
+        background-color: rgb(10, 10, 10);
+        width: 100%;
+      }
+      .logo{
+        width: 15%;
+        padding: 1rem;
+      }
+      .menu ul{
+        margin: 0;
+        padding: 0;
+      }
+      .menu ul li{
+        list-style: none;
+        display: inline-block;
+        margin-top: 1.5rem;
+      }
+      .menu ul li a{
+        text-decoration: none;
+        padding: 0.7rem;
+        color: grey;
+        border-radius: 10px;
+      }
+      .menu ul li a:hover{
+        background-color: lightskyblue;
+        border: 1px solid black;
+      }
+      span{
+        color: #000;
+      }
+      .test{
+        width: 100%;
+        height: 40%;
+        background-color: #eee;
+        margin-top: 2rem;
+        display: flex;
+      }
+      .test img{
+        border-radius: 50%;
+        width: 100%;
+      }
+      .box-1{
+        width: 25%;
+        padding: 1.5rem;
+        box-shadow: 1px 1px 8px 1px black; 
+        transition: 1s ease-in-out;
+        background-color: rgb(143, 137, 137);
+      }
+      .box-1:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(0,0,0,0.5);
+      }
+      .box-2{
+        width: 15%;
+        padding: 1.5rem;
+        box-shadow: 1px 1px 8px 1px black; 
+        transition: 1s ease-in-out;
+        background-color: rgb(14, 13, 13);
+      }
+      .box-2:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(0,0,0,0.5);
+      }
+      .box-3{
+        width: 15%;
+        padding: 1.5rem;
+        box-shadow: 1px 1px 8px 1px black; 
+        transition: 1s ease-in-out;
+        background-color: rgb(156, 152, 152);
+      }
+      .box-3:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(0,0,0,0.5);
+      }
+      .box-4{
+        width: 15%;
+        padding: 1.5rem;
+        box-shadow: 1px 1px 8px 1px black; 
+        transition: 1s ease-in-out;
+        background-color: rgb(131, 128, 128);
+      }
+      .box-4:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(8, 8, 8, 0.5);
+      }
+      .box-5{
+        width: 15%;
+        padding: 1.5rem;
+        box-shadow: 1px 1px 8px 1px black; 
+        transition: 1s ease-in-out;
+        background-color: rgb(15, 15, 15);
+      }
+      .box-5:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(107, 105, 105, 0.5);
+      }
+      .box-6{
+        width: 15%;
+        padding: 1.5rem;
+        box-shadow: 1px 1px 8px 1px black; 
+        transition: 1s ease-in-out;
+        background-color: rgb(65, 64, 64);
+      }
+      .box-6:hover{
+        transform: scale(1.1,1.1);
+        background-color: rgba(0,0,0,0.5);
+      }
+      .test h5{
+        margin: 1rem 0;
+        padding: 1rem 1rem;
+        color: black;
+        background-color: lightskyblue;
+        transition: 1s;
+      }
+      .test h5:hover{
+        border-radius: 20px;
+      }
+      .content{
+        text-align: center;
+        margin-top: 4rem;
+        padding: 1rem;
+      }
+      .content h1{
+        color: red;
+        font-size: 2rem;
+      }
+      .content a{
+        text-decoration: none;
+        padding: 0.7rem;
+        margin: 1rem;
+        background-color: rgb(233, 227, 227);
+        color: black;
+        border: 1px solid gray;
+        box-sizing: 3px 1px 3px 2px black;
+        font-size: 1.3rem;
+        border-radius: 10px;
+      }
+      .content a:hover{
+        background-color:rgb(9, 138, 218) ;
+        color: rgb(150, 19, 19);
+      }
+      .content p{
+        margin-top: 2rem;
+        letter-spacing: 2px;
+        font-size: 1.8rem;
+        color: rgb(12, 10, 10);
+        line-height: 2rem;
+      }
+      .card{
+        width: 90%;
+        height: 80%;    
+        display: flex;
+        margin: 1rem;
+        margin: 0 auto;
+        
+      }
+      .card-1{
+        width: 30%;
+        padding: 1.8rem;
+        margin: 0.8rem;
+        background-color: rgb(134, 128, 128);
+        border-radius: 10px;
+        transition: 1s ease-in-out;
+        border: 2px solid rgb(214, 11, 11);
+      }
+      .card-1:hover{
+        background-color: rgba(10, 10, 10, 0.5);
+        transform: perspective(800px) scale(1.1,1.1);
+        
+      }
+      .card-1 img{
+        width: 70%;
+      }
+      .card-1 a{
+        background-color: rgba(0,0,0,0.5);
+        text-decoration: none;
+        padding: 0.5rem 0.8rem;
+        border-radius: 10px;
+        color: wheat;
+
+      }
+      .card-1 a:hover{
+        background-color: red;
+      }
+      #skill{
+        background-color: white;
+        color: rgb(238, 22, 22);
+      }
+      #skill:hover{
+        background-color: rgb(252, 244, 244);
+      }
+      .heading{
+        text-align: center;
+      }
+      .heading ul{
+        margin: 0;
+        padding: 0;
+      }
+      .heading ul li{
+        list-style: none;
+        display: inline-block;
+      }
+      .heading ul li a{
+        text-decoration: none;
+        padding: .5rem 1.5rem;
+        color: rgb(245, 243, 244);
+        font-size: 1.2rem;
+        border: 1px solid gray;
+      }
+      .heading ul li a:hover{
+        background-color: red;
+        transition: 1s;
+        color: white;
+      }
+      .para{
+        margin-top: 2rem;
+        line-height: 2rem;
+        color: rgb(236, 227, 227);
+      }
+      footer {
+        background: rgb(14, 7, 7);
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        color:  wheat;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+     * {box-sizing:border-box}
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 100px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+      
+      /* Caption text */
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
